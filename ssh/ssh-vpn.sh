@@ -253,7 +253,7 @@ echo 'Config file is at /usr/local/ddos/ddos.conf'
 echo 'Please send in your comments and/or suggestions to zaf@vsnl.com'
 
 #install bbr dan optimasi kernel
-#wget https://raw.githubusercontent.com/nanotechid/supreme/aio/ssh/bbr.sh && chmod +x bbr.sh && ./bbr.sh
+#wget https://raw.githubusercontent.com/Pakhaji30/supreme/aio/ssh/bbr.sh && chmod +x bbr.sh && ./bbr.sh
 
 # blokir torrent
 iptables -A FORWARD -m string --string "get_peers" --algo bm -j DROP
